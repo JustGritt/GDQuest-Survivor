@@ -13,6 +13,7 @@ platform_floor_layers = 4294901760
 script = ExtResource("1_ap4e8")
 
 [node name="Slime" parent="." instance=ExtResource("1_syu84")]
+unique_name_in_owner = true
 position = Vector2(0, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
